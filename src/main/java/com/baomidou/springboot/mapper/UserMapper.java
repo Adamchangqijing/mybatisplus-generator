@@ -1,11 +1,10 @@
 package com.baomidou.springboot.mapper;
 
-import java.util.List;
-
+import com.baomidou.mybatisplus.annotation.SqlParser;
+import com.baomidou.springboot.entity.User;
 import org.apache.ibatis.annotations.Select;
 
-import com.baomidou.mybatisplus.annotations.SqlParser;
-import com.baomidou.springboot.entity.User;
+import java.util.List;
 
 /**
  * User 表数据库控制层接口

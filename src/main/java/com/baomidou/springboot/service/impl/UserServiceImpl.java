@@ -1,13 +1,12 @@
 package com.baomidou.springboot.service.impl;
 
-import java.util.List;
-
-import org.springframework.stereotype.Service;
-
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.baomidou.springboot.entity.User;
 import com.baomidou.springboot.mapper.UserMapper;
 import com.baomidou.springboot.service.IUserService;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  *
@@ -19,12 +18,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
 
 	@Override
 	public boolean deleteAll() {
-		return retBool(baseMapper.deleteAll());
+		return false;
 	}
 
 	@Override
 	public List<User> selectListBySQL() {
-		return baseMapper.selectListBySQL();
+		return null;
 	}
-
 }

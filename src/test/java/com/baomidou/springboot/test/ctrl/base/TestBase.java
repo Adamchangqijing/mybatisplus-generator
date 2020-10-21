@@ -19,11 +19,6 @@ public abstract class TestBase {
         RestAssured.port = port;//4: 告诉restAssured使用哪个端口来访问
     }
 
-    protected static final Matcher<Object> SUCCESS = new Equals(200);
-    protected static final Matcher<Object> BAD_REQUEST = new Equals(400);
-    protected static final Matcher<Object> DUPLICATE = new Equals(302);
-    protected static final Matcher<Object> MODIFIED = new Equals(409);
-
     protected String generateUUID(){
         return UUID.randomUUID().toString().replace("-", "");
     }

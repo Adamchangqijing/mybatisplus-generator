@@ -5,10 +5,6 @@ import ${pkg};
 </#list>
 <#if entityLombokModel>
 
-
-
-import com.baomidou.mybatisplus.annotations.Version;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;

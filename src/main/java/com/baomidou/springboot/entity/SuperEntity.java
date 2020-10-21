@@ -1,14 +1,15 @@
 package com.baomidou.springboot.entity;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
 
-import com.baomidou.mybatisplus.activerecord.Model;
-import com.baomidou.mybatisplus.annotations.TableId;
 
 /**
  * 演示实体父类
  */
-public class SuperEntity<T extends Model> extends Model<T> {
+public class SuperEntity<T extends Model> extends Model {
 
     /**
      * 主键ID , 这里故意演示注解可以无

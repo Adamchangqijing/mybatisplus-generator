@@ -1,6 +1,6 @@
 package com.baomidou.springboot;
 
-import com.baomidou.mybatisplus.mapper.MetaObjectHandler;
+import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  *  注入公共字段自动填充,任选注入方式即可
  */
 //@Component
-public class MyMetaObjectHandler extends MetaObjectHandler {
+public class MyMetaObjectHandler implements MetaObjectHandler {
 
     protected final static Logger logger = LoggerFactory.getLogger(Application.class);
 

@@ -1,6 +1,7 @@
 package com.baomidou.springboot.mapper;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * 演示 mapper 父类，注意这个类不要让 mp 扫描到！！

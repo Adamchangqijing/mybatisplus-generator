@@ -2,7 +2,7 @@ package com.baomidou.springboot.entity.enums;
 
 import java.io.Serializable;
 
-import com.baomidou.mybatisplus.enums.IEnum;
+import com.baomidou.mybatisplus.core.enums.IEnum;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 /**
