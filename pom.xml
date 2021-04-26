@@ -111,6 +111,22 @@
 			<version>11.2.0.4.0-atlassian-hosted</version>
 		</dependency>
 
+		<!--数据库驱动postgresSQL-->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.5.jre7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.xiaoymin</groupId>
+			<artifactId>knife4j-spring-boot-starter</artifactId>
+			<!--在引用时请在maven中央仓库搜索最新版本号-->
+			<version>2.0.2</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<build>

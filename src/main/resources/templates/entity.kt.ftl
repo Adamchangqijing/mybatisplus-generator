@@ -33,6 +33,7 @@ class ${entity} : Serializable {
     /**
      * ${field.comment}
      */
+@ApiModelProperty("${field.comment}")
 </#if>
 <#if field.keyFlag>
 <#-- 主键 -->
